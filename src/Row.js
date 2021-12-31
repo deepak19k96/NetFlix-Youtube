@@ -18,7 +18,7 @@ const Row = ({title, FetchUrl, isLargeRow = false}) => {
        fetchMovies();
     },[FetchUrl]);
 
-    return (
+    return ( 
        <div className="movie__Row">        
          <h2 className='title'>{title}</h2>  
           <div className='movie__list'>
