@@ -20,8 +20,8 @@ const Row = ({title, FetchUrl, isLargeRow = false}) => {
 
     return ( 
        <div className="movie__Row">        
-         <h2 className='title'>{title}</h2>  
-          <div className='movie__list'>
+         <h2 className='title title-text'>{title}</h2>  
+          <div className='movie__list '>
             { movies.map(movie => {        
              if ((isLargeRow &&  movie.poster_path) || (!isLargeRow &&  movie.backdrop_path )) { 
                 return(
