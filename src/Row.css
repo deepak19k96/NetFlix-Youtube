@@ -27,6 +27,6 @@ color: white;
     
 }
 .poster::-webkit-scrollbar {
-    display: none;
+    display: none; 
   }
 
