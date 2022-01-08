@@ -1,32 +1,31 @@
 .movie__Row{
-background-color: black;
-color: white;
-}
-.poster{
-    max-height: 100px;
-    padding-left: 10px;
-    width: 100%;
-}
-.posterLarge{
-    max-height: 250px;
-     
-}
-
-.title {
-    margin: 0px;
-    padding: 5px;
-    text-align: left;
-    margin-left: 40px;
-}
-
-.movie__list{
-    overflow-y: hidden;
-    overflow-x: scroll;
-    display: flex;
-    padding: 10px;
+    background-color: black;
+    color: white;
+    }
+    .poster{
+        max-height: 100px;
+        padding-left: 10px;
+        width: 100%;
+    }
+    .posterLarge{
+        max-height: 250px;
+         
+    }
     
-}
-.poster::-webkit-scrollbar {
-    display: none; 
-  }
-
+    .title {
+        margin: 0px;
+        padding: 5px;
+        text-align: left;
+        margin-left: 40px;
+    }
+    
+    .movie__list{
+        overflow-y: hidden;
+        overflow-x: scroll;
+        display: flex;
+        padding: 10px;
+        
+    }
+    .movie__list::-webkit-scrollbar {
+        display: none; 
+      }
